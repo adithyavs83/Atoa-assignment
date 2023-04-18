@@ -1,0 +1,8 @@
+version: "3"
+services:
+  my-node:
+  container_name: node_docker_compose
+  build: .
+  Ports:
+   -'3001:3000'
+
